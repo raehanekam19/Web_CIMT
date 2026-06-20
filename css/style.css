@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   background-position: center;
+   background-color: rgb(15, 23, 42);
+   background-blend-mode: multiply;
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+   height: 100vh;
+}

@@ -1,0 +1,210 @@
+/* Navbar */
+
+/* Logo */
+.logo img{
+   width: 245px;
+   height: 125px;
+   padding-bottom: 10px;
+   margin-left: 20px;
+}
+/* Logo Mobile Display */
+@media(max-width: 1170px){
+   .logo img {
+      width: 185px;
+      height: 95px;
+      padding-bottom: 10px;
+      margin-left: 20px;
+   }
+}
+
+
+/* Navbar */
+header{
+   position: fixed;
+   width: 100%;
+   height: 90px;
+   background: #ffffff;
+   display: flex;
+   margin-top: -80px;
+   align-items: center;
+   z-index: 999;
+   justify-content: space-between;
+   padding: 0 100px;
+   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+@media(max-width: 1170px){
+   header {
+      padding: 0 25px;
+   }
+}
+
+/*  Medsos */
+/* header .vertical{
+   position:fixed;
+   display: block;
+   border-left: 2px solid;
+   height: 70px;
+   left: 380px;
+   top: 10px;
+   color: #000000;
+}
+header .icon-medsos{
+   position: absolute;
+   display: block;
+   height: 70px;
+   left: 400px;
+   top: 14px;
+}
+.icon-medsos a{
+   text-decoration: none;
+   color: #000000;
+}
+header .name-medsos{
+   position: absolute;
+   display: block;
+   height: 70px;
+   left: 425px;
+   top: 14px;
+} */
+/* @media(max-width: 1170px){
+   header .vertical {
+      display: none;
+   }
+   header .icon-medsos {
+      display: none;
+   }
+   header .name-medsos {
+      display: none;
+   }
+} */
+
+
+/* Menu */
+.navbar ul{
+   display: flex;
+}
+.navbar ul li a{
+   display: block;
+   text-transform: uppercase;
+   color: #111827;
+   border: solid .5px #00026d;
+   font-size: 14px;
+   font-weight: 650;
+   padding: 5px 20px;
+   text-decoration: none;
+   border-radius: 10px;
+   transition: .3s ease;
+   margin: 0 3px;
+}
+.navbar ul li a:hover{
+   color: #f9fafb;   
+   background: #111827;
+   border: solid .2px #ffffff;
+}
+.navbar ul li a.active{
+   background: #111827;
+   color: #f9fafb;
+   border: solid .2px #ffffff;
+}
+
+/* Button Menu Mobile */
+.tree-btn{
+   display: none;
+   visibility: hidden;
+}
+.btnbar{
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   right: 50px;
+   top: 25px;
+   z-index: 1;
+   display: none;
+   cursor: pointer;
+   border-radius: 3px;
+   background-color: #111827;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.btnbar .common{
+   position: absolute;
+   height: 1.5px;
+   width: 20px;
+   background-color: #ffffff;
+   border-radius: 50px;
+   transition: 0.3s ease
+}
+.btnbar .top_line{
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.btnbar .middle_line{
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.btnbar .bottom_line{
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+input:checked ~ .btnbar .top_line{
+   left: 2px;
+   top: 14px;
+   width: 25px;
+   transform: rotate(45deg);
+}
+input:checked ~ .btnbar .bottom_line{
+   left: 2px;
+   top: 14px;
+   width: 25px;
+   transform: rotate(-45deg);
+}
+input:checked ~ .btnbar .middle_line{
+   opacity: 0;
+   transform: translateX(20px);
+}
+
+/* Menu Mobile Display */
+@media(max-width: 850px){
+   .btnbar {
+      display: block;
+   }
+   input {
+      display: block;
+   }
+   .navbar {
+      position: absolute;
+      height: 0;
+      top: 85px;
+      left: 0;
+      right: 0;
+      background-color: #75757596;
+      text-decoration: none;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px 0 rgb(0, 0, 0, .5) ;
+      transition: .5s;
+      overflow: hidden;
+   }
+   .navbar.active {
+      height: 400px;
+   }
+   .navbar ul {
+      display: block;
+      width: fit-content;
+      margin: 80px auto 0 auto;
+      text-align: center;
+      transition: .5s;
+      opacity: 0;
+   }
+   .navbar.active ul {
+      opacity: 1;
+   }
+   .navbar ul li a {
+      margin-bottom: 20px;
+   }
+   .navbar ul li a {
+      text-decoration: none;
+      text-transform: capitalize;
+   }
+}
