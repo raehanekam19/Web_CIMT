@@ -87,7 +87,7 @@
    border-radius: 50%;
    display: flex;
    justify-content: center;
-   padding-bottom: 5px;
+   /* padding-bottom: 5px; */
    align-items: center;
    font-size: 28px;
    line-height: 1;
@@ -116,6 +116,5 @@
       top: 30px;
       right: 35px;
       width: 35px;
-      padding-bottom: none;
    }
 }
