@@ -87,8 +87,7 @@
    border-radius: 50%;
    display: flex;
    justify-content: center;
-   /* padding-bottom: 5px; */
-   padding-top: 5px;
+   padding-bottom: 5px;
    align-items: center;
    font-size: 28px;
    line-height: 1;
@@ -112,5 +111,8 @@
    }
    .photo-card img{
       height: 220px;
+   }
+   .close{
+      padding-top: 20px;
    }
 }
