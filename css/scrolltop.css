@@ -1,0 +1,73 @@
+/* Scroll Top Button */
+#scrollTopBtn{
+   position: fixed;
+   bottom: 60px;
+   right: 10px;
+   width: 60px;
+   height: 60px;
+   border: none;
+   border-radius: 50%;
+   background: linear-gradient(135deg, #0f172a, #1e293b);
+   color: white;
+   font-size: 30px;
+   cursor: pointer;
+   box-shadow: 0 8px 20px rgba(0,0,0,.25);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   visibility: hidden;
+   transform: translateY(20px);
+   transition: all .4s ease;
+   z-index: 999;
+}
+#scrollTopBtn i{
+   transform: rotate(180deg);
+}
+
+/* Muncul saat scroll */
+#scrollTopBtn.show{
+   opacity: 1;
+   visibility: visible;
+   transform: translateY(0);
+}
+
+/* Hover */
+#scrollTopBtn:hover{
+   transform: translateY(-5px) scale(1.1);
+   background: linear-gradient(135deg, #38bdf8, #0284c7);
+   box-shadow: 0 12px 25px rgba(56,189,248,.4);
+}
+
+/* Animasi berputar */
+#scrollTopBtn:hover{
+   animation: swing 1s ease infinite;
+}
+
+@keyframes swing{
+   0%,100%{
+      transform: rotate(0deg);
+   }
+   25%{
+      transform: rotate(-10deg);
+   }
+   75%{
+      transform: rotate(10deg);
+   }
+}
+
+@media (max-width: 768px){
+   #scrollTopBtn{
+      position: fixed;
+      bottom: 60px;
+      right: 10px;
+      width: 45px;
+      height: 45px;
+      border: none;
+   }
+   #scrollTopBtn i{
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+   }
+}
