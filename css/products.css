@@ -297,4 +297,7 @@
       height: 36px;
       font-size: 22px;
    }
+   .close-btn span{
+      margin-top: 6px;
+   }
 }
