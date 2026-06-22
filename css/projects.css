@@ -109,8 +109,13 @@
    .heading-projects h2{
       font-size: 26px;
    }
-   
    .photo-card img{
       height: 220px;
+   }
+   .close{
+      top: 30px;
+      right: 35px;
+      width: 35px;
+      padding-bottom: none;
    }
 }
