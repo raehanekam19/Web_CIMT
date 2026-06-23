@@ -8,6 +8,14 @@
    margin-top: 80px;
    position: relative;
 }
+@media (max-width: 768px){
+   .slider{
+      width: 100%;
+      height: 88vh;
+      overflow: hidden;
+      position: relative;
+   }
+}
 .slider .list .item{
    position: absolute;
    inset: 0 0 0 0;
@@ -16,7 +24,6 @@
    width: 100%;
    height: 100%;
    object-fit: cover;
-   margin-top: 10px;
 }
 .slider .list .item .detail{
    position: absolute;
@@ -27,7 +34,6 @@
    left: 50%;
    transform: translateX(-50%);
 }
-
 .slider .list .item .detail .title{
    font-size: 1.2rem;
    font-weight: 700;
@@ -70,10 +76,6 @@
    align-items: center;
    gap: 0.5rem;
 }
-/* .slider .list .item .detail figure img{
-   width: 2.5rem;
-   border-radius: 30px;
-} */
 .slider .list .item .detail figure figcaption{
    text-transform: uppercase;
    font-size: 1rem;
@@ -163,13 +165,6 @@
    margin-bottom: 3px;
    text-shadow: 1px 1px 1px #000;
 }
-/* .thumbnail .item .detail blockquote{
-   font-weight: 0.7rem;
-   font-size: 100;
-   margin-right: 3px;
-   text-align: right;
-   text-shadow: 1px 1px 1px #000;
-} */
 @media (max-width: 768px) {
    .thumbnail{
       position: absolute;
@@ -188,7 +183,6 @@
    }
    .thumbnail .item img{
       width: 100%;
-      height: 100%;
       object-fit: cover;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -251,7 +245,7 @@
       gap: 0.8rem;
    }
    .arrows p{
-      margin-top: -4px;
+      margin-top: 0;
       font-weight: 900;
    }
    .arrows button{
@@ -430,22 +424,3 @@
 .slider.prev .arrows button{
    pointer-events: none;
 }
-/* .loading-bar{
-   width: 0;
-   height: 5px;
-   background-color: #0084ff;
-   position: absolute;
-   z-index: 900;
-   top: 0;
-   left: 0;
-}
-.slider.next .loading-bar,
-.slider.prev .loading-bar{
-   width: 100%;
-   animation: loadingTime 1.4s linear 1 forwards;
-}
-@keyframes loadingTime{
-   to {
-      width: 0;
-   }
-} */

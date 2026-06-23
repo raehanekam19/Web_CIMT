@@ -55,6 +55,7 @@
    width: 100%;
    height: auto;
    border-radius: 15px;
+   border: 2px solid #cbd5e1;
 }
 .hero-content a{
    display: inline-block;

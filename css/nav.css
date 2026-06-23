@@ -7,13 +7,12 @@
    padding-bottom: 10px;
    margin-left: 20px;
 }
-/* Logo Mobile Display */
-@media(max-width: 1170px){
+@media(max-width: 768px){
    .logo img {
-      width: 185px;
-      height: 95px;
-      padding-bottom: 10px;
-      margin-left: 20px;
+      width: 170px;
+      height: 85px;
+      padding-bottom: 5px;
+      margin-left: 10px;
    }
 }
 
@@ -29,14 +28,15 @@ header{
    align-items: center;
    z-index: 999;
    justify-content: space-between;
-   padding: 0 100px;
+   padding: 0 70px;
    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 }
-@media(max-width: 1170px){
-   header {
+@media(max-width: 768px){
+   header{
       padding: 0 25px;
    }
 }
+
 
 /*  Medsos */
 /* header .vertical{
@@ -106,7 +106,6 @@ header .name-medsos{
    color: #f9fafb;
    border: solid .2px #ffffff;
 }
-
 /* Button Menu Mobile */
 .tree-btn{
    display: none;
@@ -164,11 +163,12 @@ input:checked ~ .btnbar .middle_line{
    opacity: 0;
    transform: translateX(20px);
 }
-
-/* Menu Mobile Display */
-@media(max-width: 850px){
+@media(max-width: 1070px){
    .btnbar {
       display: block;
+      height: 30px;
+      width: 30px;
+      right: 35px;
    }
    input {
       display: block;
@@ -176,7 +176,7 @@ input:checked ~ .btnbar .middle_line{
    .navbar {
       position: absolute;
       height: 0;
-      top: 85px;
+      top: 90px;
       left: 0;
       right: 0;
       background-color: #75757596;
