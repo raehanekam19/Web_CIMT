@@ -5,18 +5,21 @@
    overflow: hidden;
    padding: 0 65px;
 }
+
 .heading-products h2{
    color: #cbd5e1;
    font-size: 32px;
    text-align: center;
    padding-top: 100px;
 }
+
 .heading-products h1{
    font-size: 44px;
    text-align: center;
    margin: 10px 0;
    color: #38bdf8;
 }
+
 .heading-products p{
    max-width: 600px;
    text-align: center;
@@ -25,22 +28,22 @@
    color: #64748b;
    line-height: 1.2;
 }
-@media (max-width: 768px) {
-   .hero-products{
+@media (max-width: 768px){
+   .hero-products {
       padding: 0 30px;
    }
-   .products-container{
+   .products-container {
       grid-template-columns: 1fr;
       gap: 20px;
    }
-   .heading-products h2{
+   .heading-products h2 {
       font-size: 26px;
    }
-   .heading-products h1{
+   .heading-products h1 {
       font-size: 28px;
       margin-top: -10px;
    }
-   .heading-products p{
+   .heading-products p {
       font-size: 14px;
       margin-top: -10px;
    }
@@ -53,6 +56,7 @@
    justify-content: center;
    margin-bottom: 30px;
 }
+
 .search-box input{
    height: 50px;
    width: 500px;
@@ -70,6 +74,7 @@
    border: solid 2px #cbd5e1;
    color: #cbd5e1;
 }
+
 .no-result{
    display: none;
    text-align: center;
@@ -80,13 +85,13 @@
    color: #c92727;
    font-weight: 600;
 }
-@media (max-width: 768px) {
-   .search-box{
+@media (max-width: 768px){
+   .search-box {
       margin-top: -20px;
       margin-bottom: 40px;
       height: 20px;
    }
-   .search-box input{
+   .search-box input {
       border-radius: 10px;
       font-size: 14px;
    }
@@ -102,6 +107,7 @@
    margin: auto;
    align-items: stretch;
 }
+
 .card-products{
    height: 100%;
    background: rgba(255,255,255,.75);
@@ -117,29 +123,34 @@
 .card-products:hover{
    transform: translateY(-8px);
 }
+
 .image-box img{
    width: 100%;
    height: 200px;
    object-fit: cover;
    transition: .5s;
 }
+
 .content{
    padding: 20px;
    display: flex;
    flex-direction: column;
    flex-grow: 1;
 }
+
 .content h3{
    font-size: 22px;
    margin-bottom: 8px;
    color: #0f172a;
 }
+
 .content p{
    color:#0f172a;
    line-height: 1.6;
    margin-bottom: 18px;
    font-size: 14px;
 }
+
 .card-products .detail-btn{
    margin-top: auto;
    width: 100%;
@@ -158,23 +169,23 @@
    background-color: #10881a;
 }
 @media (max-width: 768px){
-   .card-products{
+   .card-products {
       border-radius: 15px;
    }
-   .image-box img{
+   .image-box img {
       height: 180px;
    }
-   .content{
+   .content {
       padding: 15px;
    }
-   .content h3{
+   .content h3 {
       font-size: 18px;
    }
-   .content p{
+   .content p {
       font-size: 13px;
       line-height: 1.5;
    }
-   .detail-btn{
+   .detail-btn {
       padding: 12px;
       font-size: 14px;
    }
@@ -191,14 +202,17 @@
    align-items: center;
    z-index: 1000;
 }
+
 .modal.active{
    display: flex;
 }
+
 .modal-wrapper{
    position: relative;
    width: 100%;
    max-width: 600px;
 }
+
 .modal-box{
    max-height: 90vh;
    max-width: 90%;
@@ -219,6 +233,7 @@
       opacity: 1;
    }
 }
+
 .modal-box img{
    width: 100%;
    border-radius: 20px;
@@ -226,23 +241,25 @@
    object-fit: cover;
    margin-bottom: 20px;
 }
+
 .modal-box h2{
    margin-bottom: 15px;
    color: #0f172a;
 }
+
 .modal-box p{
    color: #0f172a;
    line-height: 1.8;
 }
-@media (max-width: 768px) {
-   .modal{
+@media (max-width: 768px){
+   .modal {
       padding: 15px;
    }
-   .modal-wrapper{
+   .modal-wrapper {
       width: 100%;
       max-width: 100%;
    }
-   .modal-box{
+   .modal-box {
       width: 100%;
       max-width: 100%;
       max-height: 70vh;
@@ -250,13 +267,13 @@
       border-radius: 20px;
       overflow-y: auto;
    }
-   .modal-box img{
+   .modal-box img {
       height: 200px;
    }
-   .modal-box h2{
+   .modal-box h2 {
       font-size: 22px;
    }
-   .modal-box p{
+   .modal-box p {
       font-size: 14px;
    }
 }
@@ -286,18 +303,19 @@
    background-color: #c92727;
    color: #cbd5e1;
 }
+
 .close-btn span{
    margin-bottom: 6px;
 }
 @media (max-width: 768px){
-   .close-btn{
+   .close-btn {
       top: 20px;
       right: 15px;
       width: 36px;
       height: 36px;
       font-size: 22px;
    }
-   .close-btn span{
+   .close-btn span {
       margin-top: 6px;
    }
 }

@@ -1,26 +1,5 @@
 // Products
 
-// const searchInput = document.getElementById("searchInput");
-// const cards = document.querySelectorAll(".products-container .card-products");
-
-// searchInput.addEventListener("input", () => {
-
-//    const value = searchInput.value.toLowerCase().trim();
-
-//    cards.forEach(card => {
-
-//       const name = card.dataset.name.toLowerCase();
-//       const keywords =
-//          (card.dataset.keywords || "").toLowerCase();
-
-//       const match =
-//          name.includes(value) ||
-//          keywords.includes(value);
-
-//       card.style.display = match ? "" : "none";
-//    });
-// });
-
 const searchInput = document.getElementById("searchInput");
 const cards = document.querySelectorAll(".products-container .card-products");
 const noResult = document.getElementById("noResult");

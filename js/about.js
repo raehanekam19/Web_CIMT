@@ -1,5 +1,25 @@
-// About Team
+// About Video
 
+const video = document.getElementById("aboutVideo");
+const about = document.getElementById("about");
+
+const observer = new IntersectionObserver((entries) => {
+   entries.forEach(entry => {
+      if (entry.isIntersecting) {
+         video.currentTime = 0;
+         video.play();
+      } else {
+         video.pause();
+      }
+   });
+}, {
+   threshold: 0.5
+});
+
+observer.observe(about);
+
+
+// About Team
 const swiper = new Swiper(".mySwiper", {
    effect: "coverflow",
    grabCursor: true,
@@ -19,7 +39,7 @@ const swiper = new Swiper(".mySwiper", {
    },
 
    autoplay: {
-      delay: 10000,
+      delay: 8000,
       disableOnInteraction: false,
    },
 

@@ -9,7 +9,7 @@ const prev = document.querySelector('#prev');
 // Autoplay Slider
 let runAutoPlay = setTimeout(() => {
    next.click();
-}, 10000);
+}, 8000);
 
    next.addEventListener('click', () => {
       initSlider('next');
@@ -37,10 +37,10 @@ const thumbnailItems = thumbnail.querySelectorAll('.item');
    setTimeout(() => {
       slider.classList.remove('next');
       slider.classList.remove('prev');
-   }, 1000);
+   }, 2000);
 
    clearTimeout(runAutoPlay);
    runAutoPlay = setTimeout(() => {
       next.click();
-   }, 10000);
+   }, 8000);
 };

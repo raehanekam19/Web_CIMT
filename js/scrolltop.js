@@ -1,3 +1,5 @@
+// Scroll Up
+
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 // Tampilkan tombol saat scroll

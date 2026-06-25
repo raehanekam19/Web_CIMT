@@ -1,4 +1,4 @@
-// Link Active
+// Menu Aktif
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
@@ -25,7 +25,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 });
 
 
-// Button Menu
+// Tombol Menu
 btnbar = document.querySelector(".btnbar");
 btnbar.onclick = function() {
    navbarBar = document.querySelector(".navbar");

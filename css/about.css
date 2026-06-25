@@ -13,12 +13,14 @@
    filter: blur(5px);
    z-index: -1;
 }
+
 .heading-about h2{
    color: #000000;
    font-size: 32px;
    text-align: center;
    margin-top: 100px;
 }
+
 .container-about{
    display: flex;
    justify-content: center;
@@ -26,24 +28,28 @@
    width: 85%;
    margin: 80px auto;
 }
+
 .hero-content{
    flex: 1;
    width: 600px;
    margin: 0px 25px;
    animation: fadeInUp 2s ease;
 }
+
 .hero-content h2{
    font-size: 28px;
    margin-bottom: 20px;
    margin-top: -10%;
    color: #000;
 }
+
 .hero-content p{
    font-size: 18px;
    line-height: 1.5;
    margin-bottom: 40px;
    color: #000;
 }
+
 .hero-media{
    flex: 1;
    width: 600px;
@@ -51,12 +57,14 @@
    margin-bottom: 40px;
    animation: fadeInRight 2s ease;
 }
+
 .vicompro{
    width: 100%;
    height: auto;
    border-radius: 15px;
    border: 2px solid #cbd5e1;
 }
+
 .hero-content a{
    display: inline-block;
    background-color: #fff;
@@ -82,9 +90,11 @@
    border-radius: 5px;
    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 .learn-more-title{
    color: #06005a;
 }
+
 .learn-more-text{
    line-height: 1.8;
    text-align: justify;
@@ -138,21 +148,25 @@
    background:rgb(15, 23, 42);
    color:white;
 }
+
 .heading-team{
    text-align:center;
    margin-bottom:50px;
    margin-top: 75px;
 }
+
 .heading-team span{
    color:#38bdf8;
    font-weight:700;
    letter-spacing:2px;
    font-size: 18px;
 }
+
 .heading-team h1{
    font-size:40px;
    margin-top:5px;
 }
+
 .heading-team p{
    max-width: 600px;
    margin: auto;
@@ -161,11 +175,13 @@
    line-height: 1.8;
    margin-bottom: -20px;
 }
+
 .swiper{
    max-width: 1300px;
    margin: auto;
    padding-bottom: 40px;
 }
+
 .card.card-team{
    position:relative;
    max-width: 250px;
@@ -176,6 +192,7 @@
    transition:.5s ease;
    border: 2px solid #cbd5e1;
 }
+
 .card.card-team img{
    width:100%;
    height:100%;
@@ -188,6 +205,7 @@
    background:linear-gradient(to top,rgba(0,0,0,.8), transparent);
    z-index:1;
 }
+
 .overlay-team{
    position:absolute;
    text-align: center;
@@ -202,22 +220,28 @@
    padding:10px;
    transition:.4s;
 }
+
 .overlay-team h2{
    font-size: 18px;
 }
+
 .overlay-team p{
    font-size: 13px;
 }
+
 .card.card-team:hover{
    transform:translateY(5px);
 }
+
 .swiper-slide-active .card.card-team{
    box-shadow:0 30px 60px rgba(0,0,0,.4);
 }
+
 .swiper-button-next,
 .swiper-button-prev{
    color:white;
 }
+
 .swiper-pagination-bullet{
    background:white;
 }
@@ -242,16 +266,16 @@
    }
 }
 @media (max-width: 768px){
-   .heading-team span{
+   .heading-team span {
       font-size: 16px;
    }
-   .heading-team h1{
+   .heading-team h1 {
       font-size: 36px;
    }
-   .heading-team p{
+   .heading-team p {
       font-size: 14px;
    }
-   .card.card-team{
+   .card.card-team {
       position:relative;
       max-width: 250px;
       height: 320px;

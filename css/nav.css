@@ -7,7 +7,7 @@
    padding-bottom: 10px;
    margin-left: 20px;
 }
-@media(max-width: 768px){
+@media (max-width: 768px){
    .logo img {
       width: 170px;
       height: 85px;
@@ -32,7 +32,7 @@ header{
    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 }
 @media(max-width: 768px){
-   header{
+   header {
       padding: 0 25px;
    }
 }
@@ -83,6 +83,7 @@ header .name-medsos{
 .navbar ul{
    display: flex;
 }
+
 .navbar ul li a{
    display: block;
    text-transform: uppercase;
@@ -96,21 +97,25 @@ header .name-medsos{
    transition: .3s ease;
    margin: 0 3px;
 }
+
 .navbar ul li a:hover{
    color: #f9fafb;   
    background: #111827;
    border: solid .2px #ffffff;
 }
+
 .navbar ul li a.active{
    background: #111827;
    color: #f9fafb;
    border: solid .2px #ffffff;
 }
-/* Button Menu Mobile */
+
+/* Tombol Menu Hp */
 .tree-btn{
    display: none;
    visibility: hidden;
 }
+
 .btnbar{
    position: absolute;
    height: 30px;
@@ -124,6 +129,7 @@ header .name-medsos{
    background-color: #111827;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 .btnbar .common{
    position: absolute;
    height: 1.5px;
@@ -132,38 +138,45 @@ header .name-medsos{
    border-radius: 50px;
    transition: 0.3s ease
 }
+
 .btnbar .top_line{
    top: 30%;
    left: 50%;
    transform: translate(-50%,-50%);
 }
+
 .btnbar .middle_line{
    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
 }
+
 .btnbar .bottom_line{
    top: 70%;
    left: 50%;
    transform: translate(-50%,-50%);
 }
+
 input:checked ~ .btnbar .top_line{
    left: 2px;
    top: 14px;
    width: 25px;
    transform: rotate(45deg);
 }
+
 input:checked ~ .btnbar .bottom_line{
    left: 2px;
    top: 14px;
    width: 25px;
    transform: rotate(-45deg);
 }
+
 input:checked ~ .btnbar .middle_line{
    opacity: 0;
    transform: translateX(20px);
 }
-@media(max-width: 1070px){
+
+@media (max-width: 1070px){
    .btnbar {
       display: block;
       height: 30px;
