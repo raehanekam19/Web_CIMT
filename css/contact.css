@@ -190,7 +190,7 @@
    animation: spin 1s linear infinite;
    display: none;
    position: absolute;
-   top: 50%;
+   top: 32%;
    left: 50%;
    transform: translate(-50%,-50%);
 }
@@ -203,12 +203,17 @@
    .contact-right {
       margin-top: -20px;
    }
+   .loader {
+      top: 30%;
+      left: 40%;
+   }
    .btn-send {
-      width: 150px;
-      height: 50px;
+      width: 100px;
+      height: 30px;
       font-size: 12px;
       border-radius: 10px;
       text-align: center;
+      padding-bottom: 30px;
    }
 }
 
