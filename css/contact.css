@@ -190,7 +190,7 @@
    animation: spin 1s linear infinite;
    display: none;
    position: absolute;
-   top: 40%;
+   margin-top: -20px;
    left: 50%;
    transform: translate(-50%,-50%);
 }
