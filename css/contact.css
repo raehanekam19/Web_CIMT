@@ -206,14 +206,12 @@
       margin-top: -20px;
    }
    .loader {
-      width: 8px;
-      height: 8px;
-      top: 20%;
+      top: 30%;
       left: 40%;
    }
    .btn-send {
       width: 100px;
-      height: 30px;
+      height: 50px;
       font-size: 12px;
       border-radius: 10px;
    }
