@@ -173,6 +173,9 @@
    border-radius: 12px;
    cursor: pointer;
    transition: 0.3s;
+   justify-content: center;
+   display: flex;
+   align-items: center;
    position: relative;
    overflow: hidden;
 }
@@ -190,7 +193,7 @@
    animation: spin 1s linear infinite;
    display: none;
    position: absolute;
-   margin-top: 2px;
+   top: 30%;
    left: 50%;
    transform: translate(-50%,-50%);
 }
@@ -212,8 +215,6 @@
       height: 30px;
       font-size: 12px;
       border-radius: 10px;
-      text-align: center;
-      padding-bottom: 30px;
    }
 }
 
