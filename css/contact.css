@@ -206,9 +206,9 @@
       margin-top: -20px;
    }
    .loader {
-      width: 10px;
-      height: 10px;
-      top: 30%;
+      width: 8px;
+      height: 8px;
+      top: 20%;
       left: 40%;
    }
    .btn-send {
